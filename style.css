@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #C5FBFF;
+    font-family: 'Poppins', sans-serif;
+}
+  
+
+
+
+h3, h4, p, .header, .gatin{
+    text-align: center;
+}
+  
+.box {
+    display: flex;
+    justify-content: space-evenly;  
+    max-width: 100%;
+}
+  
+.exercise{
+    transition: 0.3s ease-in-out;
+    
+}
