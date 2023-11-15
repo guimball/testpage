@@ -2,19 +2,19 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.sendFile('./index.html', {root: __dirname});
+  res.send('1');
 });
 
 app.get('/ex1', (req, res) => {
-  res.sendFile('./ex1.html', {root: __dirname});
+  res.send('2'); 
 });
 
 app.get('/ex2', (req, res) => {
-  res.sendFile('./ex2.html', {root: __dirname});  
+  res.send('3');
 });
 
 app.get('/ex3', (req, res) => {
-  res.sendFile('./ex3.html', {root: __dirname});
+  res.send('4'); 
 });
 
 app.listen(3000, () => {
